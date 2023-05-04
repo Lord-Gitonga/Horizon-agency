@@ -1,35 +1,15 @@
 import './team.css'
-import React from "react";
-import team01 from "../../images/team-01.png"
-import team02 from "../../images/team-02.png"
-import team03 from "../../images/team-03.png"
-import team04 from "../../images/team-04.png"
-
-const teamMembers = [
-    {
-        imgUrl: team01,
-        name: 'Joe Hart',
-        position: 'CEO '
-    },
-    {
-        imgUrl: team02,
-        name: 'Linda Norman',
-        position: 'Product Designer'
-    },
-    {
-        imgUrl: team03,
-        name: 'Norman Masika',
-        position: 'UX/UI'
-    },
-    {
-        imgUrl: team04,
-        name: 'Felix Kibe',
-        position: 'Front-End Developer'
-    },
-]
+import React,{useEffect,useState} from "react";
 
 
-const Team = () => {
+function Team() {
+const[team, setTeam]=useState([])
+
+    useEffect(() => (
+        fetch('http://localhost:3000/teamMembers')
+            .then((response) => response.json())
+        .then((data)=>setTeam(data))
+), [])
     return (
         <section className="our_team">
             <div className="container">
@@ -40,7 +20,7 @@ const Team = () => {
                     </h2>
                 </div>
                 <div className="team_wrapper">
-                    {teamMembers.map((item, index) => (
+                    {team.map((item, index) => (
                     <div className="team_item" key={index}>
                         <div className="team_img">
                             <img src={item.imgUrl} alt="" />

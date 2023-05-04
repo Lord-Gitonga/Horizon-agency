@@ -1,0 +1,44 @@
+{
+    "chooseData" : [
+    {
+        "icon": "ri-wifi-line",
+        "title": "First working process",
+        "description": "Digital-Wave agency specializes in creating and implementing marketing strategies to promote brands across various digital channels. We provide a range of services, including social media management, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and web design. Our main goal is to increase brand visibility, attract and retain customers, and ultimately drive sales and revenue growth for our clients.We work closely with our clients to understand their brand, target audience, and business goals, and use data-driven insights to develop effective marketing campaigns that deliver measurable results."
+    },
+    {
+        "icon": "ri-team-line",
+        "title": "Dedicated Team",
+        "description": "Digital-Wave agency specializes in creating and implementing marketing strategies to promote brands across various digital channels. We provide a range of services, including social media management, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and web design. Our main goal is to increase brand visibility, attract and retain customers, and ultimately drive sales and revenue growth for our clients.We work closely with our clients to understand their brand, target audience, and business goals, and use data-driven insights to develop effective marketing campaigns that deliver measurable results."
+    },
+    {
+        "icon": "ri-customer-service-2-line",
+        "title": "Around the clock support",
+        "description": "Digital-Wave agency specializes in creating and implementing marketing strategies to promote brands across various digital channels. We provide a range of services, including social media management, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and web design. Our main goal is to increase brand visibility, attract and retain customers, and ultimately drive sales and revenue growth for our clients.We work closely with our clients to understand their brand, target audience, and business goals, and use data-driven insights to develop effective marketing campaigns that deliver measurable results."
+    }
+],
+ 
+    "teamMembers" :[
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1614890094520-7b8dd0ec56d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Joe Hart",
+        "position": "CEO"
+    },
+    {
+        "imgUrl": "https://plus.unsplash.com/premium_photo-1661749251880-10dd866048d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "name": "Linda Norman",
+        "position": "Product Designer"
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+       "name": "Norman Masika",
+        "position": "UX/UI"
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1615572359976-1fe39507ed7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Felix Kibe",
+        "position": "Front-End Developer"
+    }
+]
+
+}
+

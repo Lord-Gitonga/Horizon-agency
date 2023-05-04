@@ -33,16 +33,7 @@ const Testimonial = () => {
                     <Slider {...settings}>
                         <div className="slider_item">
                             <p className="description">
-                                Quisque tristique leo nisi, non consectetur elit bibendum
-                                sit amet. Ut porta leo sed semper feugiat. Proin vitae
-                                sodales urna. Aenean lacinia semper turpis quis sagittis.
-                                Suspendisse tempus purus eget sem venenatis varius
-                                facilisis sed purus. Mauris in bibendum neque. Nulla eu
-                                consequat mauris, ut ultrices turpis. Etiam ut risus sit
-                                amet lorem pellentesque mattis ut id nunc.
-                                In ultrices ultrices malesuada. Duis malesuada, purus non
-                                lobortis sodales, arcu arcu pretium dui, at mattis purus
-                                nunc nec erat. Fusce convallis ante quis orci rutrum.
+                                "I've been working with this digital agency for over a year now, and I have to say, their marketing team has truly exceeded my expectations. They helped me build a strong online presence for my business by developing a comprehensive marketing strategy that included social media marketing, search engine optimization, and pay-per-click advertising. Their team is knowledgeable, creative, and always willing to go the extra mile to ensure that my business is successful. Thanks to their efforts, I've seen a significant increase in website traffic, leads, and conversions. I highly recommend this digital agency to any business looking to take their online marketing to the next level."
                             </p>
                             <div className="customer_details">
                                 <div className="customer_img">
@@ -58,16 +49,7 @@ const Testimonial = () => {
                         
                         <div className="slider_item">
                             <p className="description">
-                                Quisque tristique leo nisi, non consectetur elit bibendum
-                                sit amet. Ut porta leo sed semper feugiat. Proin vitae
-                                sodales urna. Aenean lacinia semper turpis quis sagittis.
-                                Suspendisse tempus purus eget sem venenatis varius
-                                facilisis sed purus. Mauris in bibendum neque. Nulla eu
-                                consequat mauris, ut ultrices turpis. Etiam ut risus sit
-                                amet lorem pellentesque mattis ut id nunc.
-                                In ultrices ultrices malesuada. Duis malesuada, purus non
-                                lobortis sodales, arcu arcu pretium dui, at mattis purus
-                                nunc nec erat. Fusce convallis ante quis orci rutrum.
+                                "I've been working with this digital agency for over a year now, and I have to say, their marketing team has truly exceeded my expectations. They helped me build a strong online presence for my business by developing a comprehensive marketing strategy that included social media marketing, search engine optimization, and pay-per-click advertising. Their team is knowledgeable, creative, and always willing to go the extra mile to ensure that my business is successful. Thanks to their efforts, I've seen a significant increase in website traffic, leads, and conversions. I highly recommend this digital agency to any business looking to take their online marketing to the next level."
                             </p>
                             <div className="customer_details">
                                 <div className="customer_img">
@@ -82,16 +64,7 @@ const Testimonial = () => {
                         </div>
                         <div className="slider_item">
                             <p className="description">
-                                Quisque tristique leo nisi, non consectetur elit bibendum
-                                sit amet. Ut porta leo sed semper feugiat. Proin vitae
-                                sodales urna. Aenean lacinia semper turpis quis sagittis.
-                                Suspendisse tempus purus eget sem venenatis varius
-                                facilisis sed purus. Mauris in bibendum neque. Nulla eu
-                                consequat mauris, ut ultrices turpis. Etiam ut risus sit
-                                amet lorem pellentesque mattis ut id nunc.
-                                In ultrices ultrices malesuada. Duis malesuada, purus non
-                                lobortis sodales, arcu arcu pretium dui, at mattis purus
-                                nunc nec erat. Fusce convallis ante quis orci rutrum.
+                                "I've been working with this digital agency for over a year now, and I have to say, their marketing team has truly exceeded my expectations. They helped me build a strong online presence for my business by developing a comprehensive marketing strategy that included social media marketing, search engine optimization, and pay-per-click advertising. Their team is knowledgeable, creative, and always willing to go the extra mile to ensure that my business is successful. Thanks to their efforts, I've seen a significant increase in website traffic, leads, and conversions. I highly recommend this digital agency to any business looking to take their online marketing to the next level."
                             </p>
                             <div className="customer_details">
                                 <div className="customer_img">

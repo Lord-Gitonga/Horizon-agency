@@ -1,27 +1,19 @@
-import React from "react";
+import React, {useEffect,useState} from "react";
 import './About.css'
 import aboutImg from '../../images/about-us.jpg'
 
-const chooseData = [
-    {
-        icon: 'ri-wifi-line',
-        title: 'First working process',
-        description: 'Digital-Wave agency specializes in creating and implementing marketing strategies to promote brands across various digital channels. We provide a range of services, including social media management, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and web design. Our main goal is to increase brand visibility, attract and retain customers, and ultimately drive sales and revenue growth for our clients.We work closely with our clients to understand their brand, target audience, and business goals, and use data-driven insights to develop effective marketing campaigns that deliver measurable results.'
-    },
-    {
-        icon: 'ri-team-line',
-        title: 'Dedicated Team',
-        description: 'Digital-Wave agency specializes in creating and implementing marketing strategies to promote brands across various digital channels. We provide a range of services, including social media management, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and web design. Our main goal is to increase brand visibility, attract and retain customers, and ultimately drive sales and revenue growth for our clients.We work closely with our clients to understand their brand, target audience, and business goals, and use data-driven insights to develop effective marketing campaigns that deliver measurable results.'
-    },
-    {
-        icon: 'ri-customer-service-2-line',
-        title: 'Around the clock support',
-        description: 'Digital-Wave agency specializes in creating and implementing marketing strategies to promote brands across various digital channels. We provide a range of services, including social media management, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and web design. Our main goal is to increase brand visibility, attract and retain customers, and ultimately drive sales and revenue growth for our clients.We work closely with our clients to understand their brand, target audience, and business goals, and use data-driven insights to develop effective marketing campaigns that deliver measurable results.'
-    },
-    
-]
+
+
 
 function About() {
+const[items, setItems]=useState([])
+
+    useEffect(() => (
+        fetch(' http://localhost:3000/chooseData')
+            .then((response) => response.json())
+        .then((data)=>setItems(data))
+), [])
+    
     return (
         <section id="about">
             <div className="container">
@@ -35,7 +27,7 @@ function About() {
                         </p>
                         
                         <div className="choose_item-wrapper">
-                            {chooseData.map((item,index) => (
+                            {items.map((item,index) => (
                              <div className="choose_us-item" key={index}>
                                  <span className="choose_us-icon">
                                     <i class={item.icon}></i>
