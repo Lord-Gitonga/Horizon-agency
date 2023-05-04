@@ -1,8 +1,8 @@
 import './blog.css'
 import React from "react";
-import videoImg from '../images/video.png'
-import articleImg from '../images/article.png'
-import caseStudy from '../images/case-study.png'
+import videoImg from '../../images/video.png'
+import articleImg from '../../images/article.png'
+import caseStudy from '../../images/case-study.png'
 
 const blogData = [
     {
