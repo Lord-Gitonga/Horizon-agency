@@ -20,7 +20,6 @@ const[items, setItems]=useState([])
                         <p className="description about_content-desc">
                            Digital-Wave has a team of experienced  developers who use the latest technology and best practices to build apps that are fast, reliable, and scalable. We work closely with their clients to understand their business needs, target audience, and marketing goals, and use that information to create customized app solutions that are tailored to their specific requirements.
                         </p>
-                        
                         <div className="choose_item-wrapper">
                             {items.map((item,index) => (
                              <div className="choose_us-item" key={index}>
