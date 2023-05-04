@@ -1,9 +1,16 @@
 import './App.css';
+import Body from './Components/Body/Body';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/NavBar/Header';
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Header />
+      <Body/>
+      <Footer />
+      
+    </>
   );
 }
 
