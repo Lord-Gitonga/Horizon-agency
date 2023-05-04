@@ -1,5 +1,5 @@
+import React, {useState} from "react";
 import './Header.css'
-import React from "react";
 
 const nav_links = [
     {
@@ -25,7 +25,21 @@ const nav_links = [
 ]
 
 function Header() {
+    const [lightMode, setLightMode] = useState(false);
+
+  let themeIcon = lightMode ? "light_mode" : "dark_mode";
+  let themeName = lightMode ? "Light" : "Dark";
+
+  let toggleLightMode = () => {
+    if (lightMode) {
+      document.querySelector("body").classList.toggle("dark");
+    } else {
+      document.querySelector("body").classList.toggle("dark");
+    }
+  };
+
     return (
+
         <header className="header">
             <div className="container">
                 <div className="nav_wrapper">
@@ -51,6 +65,18 @@ function Header() {
                     </div>
                 </div>
             </div>
+            <div id="web-mode">
+        <i
+          onClick={() => {
+            setLightMode(!lightMode);
+            toggleLightMode();
+          }}
+          className="material-icons"
+        >
+          {themeIcon}
+        </i>
+        <h4>{themeName}</h4>
+      </div>
         </header>
     )
 }
