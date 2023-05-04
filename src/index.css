@@ -29,13 +29,13 @@
   
 }
 
-.light-theme {
+.dark {
   --body-bg: rgb(255, 255, 255);
   --heading-color: #0c123d;
   --btn-secondary-bg: #816aff;
   --btn-primary-bg: #fff;
   --primary-color: #816aff;
-  --counter-color: #fff;
+  --counter-color: linear-gradient(90deg,rgb(53, 31, 38),rgb(19, 52, 77));
   --counter-section-bg: #816aff;
   --link-color: #0c123d;
   --link-active: #816aff --newsletter-bg: linear-gradient(180deg,
@@ -46,6 +46,10 @@
   --card-bg: #fff;
   --testimonial-bg: #f7f7f7;
   --team-card-bg: #fff;
+  --newsletter-bg: linear-gradient(90deg,
+  #02bba6 30%,
+  rgba(29, 129, 176, 1) 55%,
+  rgba(35, 93, 173, 1) 75%);
 }
 
 * {

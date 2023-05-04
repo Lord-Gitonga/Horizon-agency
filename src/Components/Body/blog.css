@@ -9,10 +9,11 @@
     background: var(--card-bg);
     border-radius: 0.5rem;
     cursor: pointer;
+    color: var(--primary-color)
 }
 
 .blog_item h3{
-    color: whitesmoke;
+    color: var(--primary-color);
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 20px;
@@ -29,6 +30,7 @@
 .blog_desc {
     font-size: 1.1rem;
     margin-bottom: 10px;
+    color: var(--primary-color)
 }
 
 .learn_more i {
@@ -54,5 +56,5 @@
 }
 
 .description {
-    color: aliceblue;
+    color: var(--primary-color);
 }

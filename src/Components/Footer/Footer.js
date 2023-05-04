@@ -5,7 +5,7 @@ function Footer() {
             <footer id="footer">
       <div id="footer-main">
         <div className="footer-col-main">
-          <h2>Horizon Agency</h2>
+          <h2>Digital-Wave</h2>
           <h3>Grow with us</h3>
           <p>
             Elit ut consequat reprehenderit cupidatat nulla eu dolor nostrud do
