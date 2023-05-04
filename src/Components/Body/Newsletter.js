@@ -2,6 +2,12 @@ import './newsletter.css'
 import React from "react";
 
 const Newsletter = () => {
+
+    function handleClick(e) {
+        e.preventDefault()
+        alert("Thank you for subscribing to Digital Wave")
+    }
+
     return (
         <section className="newsletter">
            <div className="container">
@@ -13,7 +19,7 @@ const Newsletter = () => {
                     </div>
                     <div className="newsletter_form">
                         <input type="email" placeholder="Email" />
-                        <button className=" btn btn-secondary">Subscribe Now</button>
+                        <button onClick={handleClick} className=" btn btn-secondary">Subscribe Now</button>
                     </div>
                 </div>
             </div> 

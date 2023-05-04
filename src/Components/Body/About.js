@@ -1,13 +1,8 @@
 import React, {useEffect,useState} from "react";
 import './About.css'
 import aboutImg from '../../images/about-us.jpg'
-
-
-
-
 function About() {
 const[items, setItems]=useState([])
-
     useEffect(() => (
         fetch(' http://localhost:3000/chooseData')
             .then((response) => response.json())

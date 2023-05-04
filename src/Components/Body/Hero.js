@@ -38,7 +38,6 @@ function Hero() {
                                 </div>
                                 <button onSubmit={handlesubmit}>submit</button>
                             </form>)}
-                            <button className="secondary_btn">Discover More</button>
                         </div>
                     </div>
 

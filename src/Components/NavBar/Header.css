@@ -87,6 +87,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    list-style: none;
   }
   
   #links-container a {
@@ -94,6 +95,7 @@ nav {
     margin-right: 40px;
     font-size: 1.5rem;
     text-decoration: none;
+    list-style: none;
   }
   
   #links-container a:hover {
