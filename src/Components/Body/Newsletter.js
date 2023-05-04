@@ -1,7 +1,24 @@
 import './newsletter.css'
-function Newsletter() {
+import React from "react";
+
+const Newsletter = () => {
     return (
-        <div></div>
+        <section className="newsletter">
+           <div className="container">
+                <div className="newsletter_wrapper">
+                    <div className="newsletter_content">
+                        <h6 className="subtitle">Let's Work</h6>
+                        <h2> Explore the <span className="highlight"> hidden </span>
+                         gems and subscribe!</h2>
+                    </div>
+                    <div className="newsletter_form">
+                        <input type="email" placeholder="Email" />
+                        <button className=" btn btn-secondary">Subscribe Now</button>
+                    </div>
+                </div>
+            </div> 
+        </section>
     )
 }
-export default Newsletter;
+
+export default Newsletter
